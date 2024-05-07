@@ -36,5 +36,3 @@ jobs:
           echo "Exporting API key variable..."
           echo "Executing 'make deploy_headless'..."
 
-
-            application_token: ${{ secrets.beagle_application_token }}
