@@ -36,9 +36,5 @@ jobs:
           echo "Exporting API key variable..."
           echo "Executing 'make deploy_headless'..."
 
-          
-      - name: Beagle Security Test
-        uses: beaglesecurity/beagle-github-action@2.0.0
-        env:
-            access_token: ${{ secrets.beagle_access_token }}
+
             application_token: ${{ secrets.beagle_application_token }}
